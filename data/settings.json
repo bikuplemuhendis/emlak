@@ -1,0 +1,33 @@
+{
+  "agencyName": "Atelier Gayrimenkul",
+  "logoText": "Atelier",
+  "logoMark": "AG",
+  "tagline": "Seçkin konutlar, güvenilir danışmanlık",
+  "phone": "+90 212 236 45 90",
+  "whatsapp": "905321112233",
+  "email": "merhaba@ateliergayrimenkul.com",
+  "address": "Teşvikiye Cad. No: 48, Nişantaşı, Şişli / İstanbul",
+  "workingHours": "Pazartesi–Cumartesi 09:00–19:00",
+  "primaryColor": "#152238",
+  "accentColor": "#c4a35a",
+  "heroTitle": "İstanbul’dan Ege’ye, doğru evi bulun",
+  "heroSubtitle": "Satılık ve kiralık daire, villa, arsa ve ticari gayrimenkulleri tek ofisten, şeffaf süreçle yönetiyoruz.",
+  "heroImage": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=2000&q=80",
+  "sections": {
+    "featured": true,
+    "types": true,
+    "stats": true,
+    "testimonials": true,
+    "cta": true,
+    "latest": true
+  },
+  "defaultListingLayout": "grid",
+  "headerStyle": "transparent",
+  "footerText": "Atelier Gayrimenkul, tek ofisli bir danışmanlık atölyesidir. Portföyümüz yalnızca kendi ekibimizin yerinde gördüğü ilanlardan oluşur.",
+  "agent": {
+    "name": "Elif Kaya",
+    "title": "Kıdemli Gayrimenkul Danışmanı",
+    "photo": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80",
+    "bio": "On iki yıldır İstanbul ve Ege’de konut, villa ve yatırım arazisi danışmanlığı yapıyorum. Her ilanı yerinde görür, tapu ve imar dosyasını ofis olarak kontrol ederim. Amacım hızlı satış değil; doğru eşleşme ve şeffaf süreç."
+  }
+}
