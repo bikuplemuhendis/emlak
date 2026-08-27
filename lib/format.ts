@@ -1,5 +1,5 @@
 import type { Property } from "./types";
-import { isLandType, typeLabel, statusLabel } from "./constants";
+import { isLandType } from "./constants";
 
 const tryFormatter = new Intl.NumberFormat("tr-TR", {
   style: "currency",
@@ -60,10 +60,6 @@ export function cardMeta(property: Property): { label: string; value: string }[]
   if (property.baths) items.push({ label: "Banyo", value: String(property.baths) });
   items.push({ label: "Alan", value: formatArea(property.area) });
   return items;
-}
-
-export function listingBadge(property: Property): string {
-  return `${statusLabel(property.status)} ${typeLabel(property.type)}`;
 }
 
 export function whatsappLink(phone: string, text?: string): string {

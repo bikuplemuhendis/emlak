@@ -1,0 +1,33 @@
+[
+  {
+    "id": "inq-001",
+    "name": "Mehmet Arslan",
+    "email": "mehmet.arslan@example.com",
+    "phone": "0532 444 11 22",
+    "message": "Nişantaşı 3+1 için hafta içi akşam görüntüleme ayarlayabilir miyiz?",
+    "propertyId": "p-nisantasi-teras",
+    "propertySlug": "nisantasi-terasli-3-plus-1",
+    "source": "property",
+    "createdAt": "2026-08-16T14:20:00.000Z"
+  },
+  {
+    "id": "inq-002",
+    "name": "Selin Yücel",
+    "email": "selin.yucel@example.com",
+    "phone": "0533 220 88 41",
+    "message": "Silivri arsanın imar lejantı ve KAKS belgesini e-posta ile iletebilir misiniz?",
+    "propertyId": "p-silivri-arsa",
+    "propertySlug": "silivri-konut-imarli-arsa",
+    "source": "property",
+    "createdAt": "2026-08-18T09:05:00.000Z"
+  },
+  {
+    "id": "inq-003",
+    "name": "Caner Demir",
+    "email": "caner.demir@example.com",
+    "phone": "0541 903 17 60",
+    "message": "Ofisinizden yatırım portföyü hakkında bilgi almak istiyorum.",
+    "source": "contact",
+    "createdAt": "2026-08-20T11:40:00.000Z"
+  }
+]
