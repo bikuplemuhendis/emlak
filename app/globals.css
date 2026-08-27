@@ -1,0 +1,163 @@
+@import "tailwindcss";
+
+:root {
+  --color-primary: #152238;
+  --color-accent: #c4a35a;
+  --color-primary-soft: color-mix(in srgb, var(--color-primary) 82%, white);
+  --color-accent-dark: color-mix(in srgb, var(--color-accent) 78%, black);
+  --color-cream: #f4f0e8;
+  --color-paper: #fbfaf7;
+  --color-muted: #5c6570;
+  --color-line: #e6dfd2;
+  --color-danger: #9b2c2c;
+}
+
+@theme inline {
+  --color-navy: var(--color-primary);
+  --color-navy-soft: var(--color-primary-soft);
+  --color-gold: var(--color-accent);
+  --color-gold-dark: var(--color-accent-dark);
+  --color-cream: var(--color-cream);
+  --color-paper: var(--color-paper);
+  --color-muted: var(--color-muted);
+  --color-line: var(--color-line);
+  --color-danger: var(--color-danger);
+  --font-sans: var(--font-body), "Segoe UI", sans-serif;
+  --font-serif: var(--font-display), Georgia, serif;
+}
+
+* {
+  border-color: var(--color-line);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-primary);
+  font-family: var(--font-body), "Segoe UI", sans-serif;
+}
+
+h1,
+h2,
+h3,
+.font-serif {
+  font-family: var(--font-display), Georgia, serif;
+  letter-spacing: -0.02em;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--color-accent) 45%, white);
+}
+
+.container-wide {
+  width: min(1180px, calc(100% - 2rem));
+  margin-inline: auto;
+}
+
+.container-narrow {
+  width: min(820px, calc(100% - 2rem));
+  margin-inline: auto;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: 0.375rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  transition: 0.18s ease;
+  min-height: 2.75rem;
+  padding: 0.65rem 1.15rem;
+}
+
+.btn-gold {
+  background: var(--color-accent);
+  color: var(--color-primary);
+}
+
+.btn-gold:hover {
+  background: var(--color-accent-dark);
+  color: white;
+}
+
+.btn-navy {
+  background: var(--color-primary);
+  color: white;
+}
+
+.btn-navy:hover {
+  background: var(--color-primary-soft);
+}
+
+.btn-outline {
+  border: 1px solid var(--color-line);
+  background: white;
+  color: var(--color-primary);
+}
+
+.btn-outline:hover {
+  border-color: var(--color-primary);
+}
+
+.card-shadow {
+  box-shadow: 0 18px 50px -24px rgb(21 34 56 / 0.35);
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  border: 1px solid var(--color-line);
+  background: white;
+  border-radius: 0.375rem;
+  min-height: 2.75rem;
+  padding: 0.55rem 0.8rem;
+  color: var(--color-primary);
+  outline: none;
+}
+
+textarea {
+  min-height: 7rem;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: var(--color-accent);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--color-accent) 28%, transparent);
+}
+
+label {
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--color-muted);
+  margin-bottom: 0.35rem;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 0.25rem;
+  padding: 0.2rem 0.5rem;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
